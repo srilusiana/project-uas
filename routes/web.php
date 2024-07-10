@@ -23,3 +23,4 @@ Route::get('/profile', function(){
 // Praktikum Laravel 2
 Route::get('/dashboard', [AdminController::class, 'index']);
 Route::get('/contact', [ContactController::class, 'index']);
+
